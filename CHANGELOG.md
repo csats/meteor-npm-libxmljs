@@ -5,6 +5,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 Follow [this ChangeLog format](http://keepachangelog.com/).
 
+## [1.0.1] - 2015-04-28
+### Added
+- Automated tests via TravisCI.
+
 ## [1.0.0] - 2015-04-28
 ### Added
 - Initial release.
