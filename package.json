@@ -3,25 +3,28 @@
   "version": "1.0.1",
   "description": "Meteor package wrapper for npm package libxmljs",
   "main": "package.js",
+  "scripts": {
+    "test": "jshint --exclude-path .jshintignore --verbose . && spacejam test-packages ./"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/csats/meteor-npm-libxmljs"
   },
-  "directories": {
-    "test": "test"
+  "author": {
+    "name": "C-SATS, Inc.",
+    "url": "http://www.csats.com"
   },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csats/meteor-npm-libxmljs/issues"
+  },
+  "homepage": "https://github.com/csats/meteor-npm-libxmljs",
   "dependencies": {
     "jshint": "^2.7.0",
     "spacejam": "^1.2.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "jshint lib test && spacejam test-packages ./"
-  },
   "keywords": [
     "xml",
     "meteor"
-  ],
-  "author": "Adam Monsen <haircut@gmail.com> (http://adammonsen.com)",
-  "license": "MIT"
+  ]
 }
