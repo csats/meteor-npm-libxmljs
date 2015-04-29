@@ -1,0 +1,23 @@
+{
+  "name": "meteor-npm-libxmljs",
+  "version": "1.0.0",
+  "description": "Meteor package wrapper for npm package libxmljs",
+  "main": "package.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jshint": "^2.7.0",
+    "spacejam": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jshint lib test && spacejam test-packages ./"
+  },
+  "keywords": [
+    "xml",
+    "meteor"
+  ],
+  "author": "Adam Monsen <haircut@gmail.com> (http://adammonsen.com)",
+  "license": "MIT"
+}

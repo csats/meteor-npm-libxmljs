@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "libxmljs": {
+      "version": "0.14.0",
+      "dependencies": {
+        "bindings": {
+          "version": "1.2.1"
+        },
+        "nan": {
+          "version": "1.7.0"
+        }
+      }
+    }
+  }
+}
