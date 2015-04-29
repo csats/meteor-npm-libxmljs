@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "Meteor package wrapper for npm package libxmljs",
   "main": "package.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csats/meteor-npm-libxmljs"
+  },
   "directories": {
     "test": "test"
   },
