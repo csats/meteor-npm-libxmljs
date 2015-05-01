@@ -27,6 +27,10 @@ This package exports `XML`. Example usage:
       assert.equal(actual, expected);
     }
 
+## No Windows support
+
+Sorry, this package doesn't work on Windows. see
+[polotek/libxmljs#309](https://github.com/polotek/libxmljs/issues/309).
 
 ## See also
 
