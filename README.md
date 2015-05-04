@@ -20,6 +20,7 @@ This package exports `XML`. Example usage:
         + '    <FreeText>Change your thoughts and you change the world.</FreeText>\n'
         + '  </Answer>\n'
         + '</QuestionFormAnswers>\n';
+      // Warning: synchronous!
       var xmlDoc = XML.parseXml(xml);
       var actual = xmlDoc.get('//xmlns:FreeText', 'http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd').text();
       var expected = 'Change your thoughts and you change the world.';
