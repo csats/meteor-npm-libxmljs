@@ -1,5 +1,7 @@
 language: node_js
-node_js: "node"
+node_js:
+  - "4"
+  - "node"
 install:
   - "curl https://install.meteor.com | /bin/sh"
   - "npm install"
