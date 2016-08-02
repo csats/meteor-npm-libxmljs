@@ -1,6 +1,6 @@
 {
   "name": "meteor-npm-libxmljs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Meteor package wrapper for npm package libxmljs",
   "main": "package.js",
   "scripts": {
