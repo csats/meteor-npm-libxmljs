@@ -1,15 +1,19 @@
 {
   "dependencies": {
+    "bindings": {
+      "version": "1.2.1",
+      "resolved": "https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz",
+      "from": "bindings@1.2.1"
+    },
     "libxmljs": {
-      "version": "0.14.0",
-      "dependencies": {
-        "bindings": {
-          "version": "1.2.1"
-        },
-        "nan": {
-          "version": "1.7.0"
-        }
-      }
+      "version": "0.18.0",
+      "resolved": "https://registry.npmjs.org/libxmljs/-/libxmljs-0.18.0.tgz",
+      "from": "libxmljs@0.18.0"
+    },
+    "nan": {
+      "version": "2.3.2",
+      "resolved": "https://registry.npmjs.org/nan/-/nan-2.3.2.tgz",
+      "from": "nan@2.3.2"
     }
   }
 }

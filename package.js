@@ -3,7 +3,7 @@
 Package.describe({
   name: 'csats:libxmljs',
   summary: 'Wrapper for libxmljs npm package',
-  version: '1.0.1',
+  version: '1.0.2',
   git: 'https://github.com/csats/meteor-npm-libxmljs'
 });
 
@@ -22,5 +22,5 @@ Package.onTest(function(api) {
 });
 
 Npm.depends({
-  'libxmljs': '0.14.0'
+  'libxmljs': '0.18.0'
 });
